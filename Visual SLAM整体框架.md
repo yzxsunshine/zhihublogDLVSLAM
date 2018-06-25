@@ -1,7 +1,7 @@
 # Visual SLAM整体框架
 Visual SLAM大致可以翻译为基于视觉(Visual)的同步**摄像机定位**与**地图重建**（**S**imultaneously **L**ocalization **a**nd **M**apping），属于SLAM技术的一个分支。早期的SLAM技术大多应用在机器人领域，通过机器人上的雷达和GPS等定位、测距传感器，构建2D地图的同时完成机器人自身的定位。而如今随着各类传感器的出现和发展，基于视觉的SLAM技术因为图像信息方便、丰富、精准等原因成为主流之一，应用场景包括增强现实/虚拟现实头部跟踪、机器人导航、无人驾驶车、无人飞行器等等。SLAM这一技术的主要难点就在“同时”这个词上。在系统初始阶段，场景和系统姿态都是为未知信息。地图信息来源于相机姿态和场景特征，同时相机姿态有需要用地图信息来计算。有些类似鸡生蛋蛋生鸡的悖论（注：也挺像太极的(´・ω・｀)，见图1）。SLAM技术的核心就在与提取建立场景和系统之间的约束，通过解这些约束逐步恢复场景和系统姿态。
 
-<img src="https://github.com/yzxsunshine/zhihublogDLVSLAM/blob/master/taichi_cat.png" alt="太极猫" width="200px"/>
+<img src="https://github.com/yzxsunshine/zhihublogDLVSLAM/blob/master/taichi_cat.png" alt="太极猫" width="480px"/>
 
 图1
 
