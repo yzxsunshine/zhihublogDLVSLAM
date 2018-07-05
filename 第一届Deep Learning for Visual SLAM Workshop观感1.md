@@ -1,4 +1,4 @@
-# 第一届Deep Learning for Visual SLAM Workshop观感：前言与第一部分
+# 第一届Deep Learning for Visual SLAM Workshop观感：前言与前三讲
 就在上周美帝盐湖城，第一届Deep Learning for Visual SLAM Workshop在一群大佬们的组织下蹭着CVPR 2018一同召开了。这个Workshop和我们的专栏主题如此贴近，要是专栏里不收录一下各位大佬的演讲，岂不是徒有虚名？所以接下来几篇我会先更新总结一下大佬们的演讲，然后再继续我们原定的栏目更新计划（参见文章目录）。
 Deep Learning for Visual SLAM Workshop（链接http://visualslam.ai/）是由数位Visual SLAM领域内的大佬们（组织人列表http://ronnieclark.co.uk/dl4vslam/organizers.html）组织，旨在探讨深度学习与Visual SLAM两个领域之间如何相互配合借鉴，共同成长。演讲者名单如下（按演讲顺序排序）：
 * Jitendra Malik, UC Berkeley
